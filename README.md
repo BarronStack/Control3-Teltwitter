@@ -1,12 +1,70 @@
-# Control3-Teltwitter
+# Getting Started with Create React App
 
-Para este desafío deberá crear un sitio en el cual un usuario pueda escribir un tweet y luego este se muestre en el timeline.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Al ingresar, el usuario puede ver el timeline (si es que hay tweets) y también debería haber un cuadro de texto con un botón "Tweetear", que básicamente agregará ese tweet al timeline y será visualizable.
-- El largo máximo de caracteres será 140.
-- Deberá permitir ingresar nombre del usuario (Obligatorio para hacer el tweet, si está vacío debería mostrar un mensaje alusivo y no agregar el tweet).
-- Para soportar el manejo de tweets deberá crear un backend
+## Available Scripts
 
-Puede usar cualquier librería que estime (puede usar faker para generar datos de prueba). No es necesario implementar ninguna base de datos, puede usar datos en memoria (como en el control 2). Depende del problema es si usar redux o hooks, debe tener el juicio para poder definir en qué momento los usa (o si los necesita usar o no).
+In the project directory, you can run:
 
-Suba un archivo zip con su código, la revisión se hará sobre este código. Sin embargo, trabajen sobre un repositorio git (puede usar cualquiera) y copie la url del proyecto y póngala en el cuadro de texto de abajo.
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
