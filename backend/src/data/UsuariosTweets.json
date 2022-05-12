@@ -1,0 +1,55 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Gretchen Cole",
+      "email": "Samara.Gleichner96@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "Joey Osinski V",
+      "email": "Rodolfo.Bergstrom11@hotmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Frankie Satterfield DVM",
+      "email": "Morton_Morissette58@yahoo.com"
+    },
+    { 
+      "id": 4,
+      "name": "Mae Effertz", 
+      "email": "Garret63@yahoo.com" 
+    },
+    {
+      "id": 5,
+      "name": "Christie Pfeffer III",
+      "email": "Iliana.Kuphal@hotmail.com"
+    },
+    { 
+      "id": 6, 
+      "name": "Ernesto Barton", 
+      "email": "Melba71@hotmail.com" 
+    },
+    { 
+      "id": 7, 
+      "name": "Bryant Will", 
+      "email": "Krista.Bahringer@hotmail.com" 
+    },
+    {
+      "id": 8,
+      "name": "Chelsea Schiller",
+      "email": "Natalia_Heaney@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Elizabeth Strosin",
+      "email": "Marshall.Hills88@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Guadalupe Bahringer",
+      "email": "Daphne31@gmail.com"
+    }
+  ]
+}
