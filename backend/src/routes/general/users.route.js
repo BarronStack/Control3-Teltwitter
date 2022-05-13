@@ -2,7 +2,7 @@ const response = require('koa/lib/response')
 const acciones = require('../../actions/acciones')
 
 exports.getAllUsers = (ctx) => {
-  let response = acciones.getAllUsers()
+  let response = acciones.generarUsuarios()
   if (response != false){
     ctx.body =  {
       status: 200,
