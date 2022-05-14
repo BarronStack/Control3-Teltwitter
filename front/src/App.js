@@ -3,15 +3,15 @@ import './assets/css/App.css';
 
 // Componentes
 import Barra from './components/Barra';
-
+import Router from './Router';
 
 function App() {
   return (
     <div className="App">
       <Barra />
-      <header className="App-header">
-        
-      </header>
+      <div className='center'>
+        <Router />
+      </div>
     </div>
   );
 }

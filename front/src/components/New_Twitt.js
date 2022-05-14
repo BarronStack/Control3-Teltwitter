@@ -3,7 +3,9 @@ import React, { Component } from "react";
 class New_Twitt extends Component {
   render() {
     return (
-      <h1>hola</h1>
+      <div>
+        <h3 className="center">Escribe un nuevo tweet </h3>
+      </div>
     );
   }
 }

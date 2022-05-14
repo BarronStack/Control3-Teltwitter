@@ -11,7 +11,7 @@ exports.getTweets = (ctx) => {
   }else{
     ctx.body = {
       status: 200,
-      User: response
+      tweets: response
     }
   }
 }
