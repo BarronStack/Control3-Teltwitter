@@ -5,7 +5,9 @@ function New_Twitt(){
   
   const [loaded, setLoaded] = useState(false);
 
-  let autor, texto;
+  const [autor, setAutor] = useState("");
+  const [texto, setTexto] = useState("");
+
 
   useEffect(()=>{
     const fetchData = async() =>{
@@ -24,9 +26,40 @@ function New_Twitt(){
     }
     fetchData()
   })
+
+
+  function handleChangeText(e) {
+    setTexto(e.target.value)
+ }
+
+  function handleChangeAutor(e) {
+    setAutor(e.target.value)
+  }
+
+
   return (
     <div>
       <h3 className="center">Escribe un nuevo tweet</h3>
+
+      <input className="author-tweet"
+        placeholder="Author"
+        onChange={handleChangeAutor}>
+      </input>
+
+      <form className="new-twitt" onSubmit={useEffect.fetchData} action="/">
+        
+        <textarea
+            placeholder="New tweet"
+            maxLength={140}
+            onChange={handleChangeText}
+          />
+
+          {/* button is disabled if it's an empty string */}
+          <button className="btn" type="submit" disabled={texto === "" || autor===""}>
+            Submit
+          </button>
+
+      </form>
     </div>
   );
 

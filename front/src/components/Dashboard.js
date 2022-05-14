@@ -20,6 +20,7 @@ function Dashboard(){
     }
     fetchData()
   })
+  
   return (
     <div>
       <h3 className="center">Your Timeline</h3>
