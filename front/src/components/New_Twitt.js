@@ -27,7 +27,6 @@ function New_Twitt(){
     fetchData()
   })
 
-
   function handleChangeText(e) {
     setTexto(e.target.value)
  }
@@ -36,13 +35,13 @@ function New_Twitt(){
     setAutor(e.target.value)
   }
 
-
   return (
     <div>
       <h3 className="center">Escribe un nuevo tweet</h3>
 
       <input className="author-tweet"
         placeholder="Author"
+        value = {autor}
         onChange={handleChangeAutor}>
       </input>
 
@@ -51,10 +50,10 @@ function New_Twitt(){
         <textarea
             placeholder="New tweet"
             maxLength={140}
+            value = {texto}
             onChange={handleChangeText}
           />
 
-          {/* button is disabled if it's an empty string */}
           <button className="btn" type="submit" disabled={texto === "" || autor===""}>
             Submit
           </button>
